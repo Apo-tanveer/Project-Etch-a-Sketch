@@ -5,6 +5,10 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+    
+    
+    
 }
 
 #container{
@@ -14,18 +18,22 @@ body{
     display: flex;
     flex-wrap: wrap;
     
-    /* border: solid red; */
+    
     
 }
 
 #layout{
     display: flex;
     flex-direction: column;
-    /* width: 400px; */
+    width: 400px;
+    
+    height: 100vh;
+
 }
 #title{
     display: flex;
     justify-content: center;
+    
 }
 
 .one{
@@ -50,3 +58,34 @@ body{
     border: solid red 1px;
     box-sizing: border-box;
 }
+
+
+#inputSection{
+    
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#eraseSection{
+    
+    margin: 20px 0px;
+    align-self: flex-end;
+
+}
+
+#pixelInputField{
+    width: 40px;
+    margin-right: 10px;
+}
+
+#colorInputField{
+    width: 80px;
+}
+
+#inputFields{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
