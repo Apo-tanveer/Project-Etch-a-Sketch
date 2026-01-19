@@ -75,12 +75,13 @@ body{
 }
 
 #pixelInputField{
-    width: 40px;
-    margin-right: 10px;
+    width: 60px;
+    margin-right: 5px;
 }
 
 #colorInputField{
     width: 80px;
+    margin-right: 5px;
 }
 
 #inputFields{

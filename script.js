@@ -26,7 +26,13 @@ document.body.addEventListener("mouseup", ()=>{
 submitButton.addEventListener("click", ()=>{
     pixelValue = pixelInputField.value;
     colorValue = colorInputField.value;
-    createPixels(pixelValue, colorValue);
+    if(colorValue===""){
+        colorValue = "black";
+        createPixels(pixelValue, colorValue);
+    }else{
+        createPixels(pixelValue, colorValue);
+    }
+    
 });
 
 
@@ -46,7 +52,7 @@ function createPixels (pixelValue, colorValue){
             pixel.className       = "pixel";
             pixel.style.width     = 400/pixelValue + "px";
             pixel.style.height    = 400/pixelValue + "px";
-            pixel.style.border    = "1px solid red";
+            pixel.style.border    = "1px solid white";
             pixel.style.boxSizing = "border-box";
 
             container.appendChild(pixel);
