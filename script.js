@@ -57,7 +57,7 @@ function createPixels (pixelValue, colorValue){
 
             container.appendChild(pixel);
 
-//______________________________COLORING EACH BOX_________________________________________
+//______________________________COLORING EACH BOX_________________________________________...
 
             pixel.addEventListener("mouseover", ()=>{
                 if(isDrawing){
